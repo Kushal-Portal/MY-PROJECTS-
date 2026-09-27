@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# AGNI-X personal/runtime data
+memory.json
+contacts.json
+nicknames.json
+tasks.json
+notes.json
+myvoice.wav
+temp.wav
+agni.log
+screenshots/
+
+# Generated builds and binaries
+build/
+dist/
+*.spec
+*.exe
+*.dll
+*.pyd
